@@ -33,9 +33,13 @@ go build -o microcenteralert
 Set the required SMTP environment variables:
 
 export SMTP_HOST="smtp.gmail.com"
+
 export SMTP_PORT="587"
+
 export SMTP_USER="you@gmail.com"
+
 export SMTP_PASS="your_app_password"
+
 export ALERT_EMAIL="destination@example.com"
 
 For Gmail, generate an app password and use it for SMTP_PASS.
